@@ -1,0 +1,17 @@
+CREATE TABLE `customers` (
+    `id` INT(11) NOT NULL,
+    `customer_id` INT(11) NULL DEFAULT NULL,
+    `name` VARCHAR(191) NULL DEFAULT NULL,
+    `email` VARCHAR(191) NULL DEFAULT NULL,
+    `mobile` INT(20) NULL DEFAULT NULL,
+    `status` TINYINT(1) NOT NULL DEFAULT '1' COMMENT '1 => active, 0 => in-active',
+    `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` TIMESTAMP NULL DEFAULT NULL,
+    `deleted_at` TIMESTAMP NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+ALTER TABLE `customers` ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `customers` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE `customers` CHANGE `mobile` `mobile` VARCHAR(20) NULL DEFAULT NULL;

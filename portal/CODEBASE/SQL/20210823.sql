@@ -1,0 +1,1 @@
+ALTER TABLE `requirements` ADD `sub_category_id` INT(11) NULL DEFAULT NULL AFTER `category_id`;

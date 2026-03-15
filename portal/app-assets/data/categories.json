@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "responsive_id": "",
+      "id": 1,
+      "name": "Category 1",
+      "image": "http://localhost/ubid/app-assets/images/pages/eCommerce/9.png",
+      "status": 1
+    },
+    {
+      "responsive_id": "",
+      "id": 2,
+      "name": "Category 2",
+      "image": "http://localhost/ubid/app-assets/images/pages/eCommerce/9.png",
+      "status": 2
+    },
+    {
+      "responsive_id": "",
+      "id": 3,
+      "name": "Category 3",
+      "image": "http://localhost/ubid/app-assets/images/pages/eCommerce/9.png",
+      "status": 1
+    },
+    {
+      "responsive_id": "",
+      "id": 4,
+      "name": "Category 4",
+      "image": "http://localhost/ubid/app-assets/images/pages/eCommerce/9.png",
+      "status": 2
+    },
+    {
+      "responsive_id": "",
+      "id": 5,
+      "name": "Category 5",
+      "image": "http://localhost/ubid/app-assets/images/pages/eCommerce/9.png",
+      "status": 1
+    },
+    {
+      "responsive_id": "",
+      "id": 6,
+      "name": "Category 6",
+      "image": "http://localhost/ubid/app-assets/images/pages/eCommerce/9.png",
+      "status": 2
+    },
+    {
+      "responsive_id": "",
+      "id": 7,
+      "name": "Category 7",
+      "image": "http://localhost/ubid/app-assets/images/pages/eCommerce/9.png",
+      "status": 1
+    },
+    {
+      "responsive_id": "",
+      "id": 8,
+      "name": "Category 8",
+      "image": "http://localhost/ubid/app-assets/images/pages/eCommerce/9.png",
+      "status": 2
+    },
+    {
+      "responsive_id": "",
+      "id": 9,
+      "name": "Category 9",
+      "image": "http://localhost/ubid/app-assets/images/pages/eCommerce/9.png",
+      "status": 1
+    },
+    {
+      "responsive_id": "",
+      "id": 10,
+      "name": "Category 10",
+      "image": "http://localhost/ubid/app-assets/images/pages/eCommerce/9.png",
+      "status": 2
+    }
+  ]
+}

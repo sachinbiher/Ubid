@@ -1,0 +1,429 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: UBID
+	Author URL: http://www.themeforest.net/user/UBID
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+/* .main-menu-content .navigation .nav-item > .active{
+  background: linear-gradient(
+    118deg
+    , #2eeab7, rgba(17, 29, 26, 0.8)) !important;
+        box-shadow: 0 0 10px 1px rgb(46 234 183 / 70%) !important;
+        color: #fff !important;
+        font-weight: 400;
+        border-radius: 4px;
+} */
+
+.item-wrapper .item-price{
+    color:#7367f0;
+}
+
+#file-icon{
+  cursor: pointer;
+}
+
+.bookmark-star{
+	color: #151515 !important;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+/* my bids page css */
+.search-icon {
+	position: absolute;
+	top: 7px;
+	right: 10px;
+  }
+  
+  .table-body:last-child {
+	border-bottom: none !important;
+  }
+	.nav-item {
+		/* display: inline-block; */
+		/* vertical-align: top; */
+  }
+  /* /my bids page css */
+
+
+/* support page css */
+  .contact-box-item.title {
+	font-weight: 600;
+	color: #33475b;
+  }
+  
+  .contact-box-item {
+    max-width: 100%;
+    margin-bottom: 18px;
+    font-size: 16px;
+  }
+  
+  .contact-box-item.number {
+	color: #33475b;
+  }
+  
+  .custom-card {
+	margin-top: -70px;
+	height: 310px;
+  }
+  /* /support page css */
+
+  /* wishlist page css */
+  .dollar-symbol {
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-right: 40px;
+	border-right: 1px solid lightgray;
+}
+
+.text-ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+}
+
+.btn-custom-color {
+    /* background: #2eeab7; */
+    background: #2a2e30;
+    color: white;
+}
+
+.alert-custom {
+    background: #eaab6fb5;
+    color: #5e5873;
+    border-radius: 5px;
+}
+  /* /wishlist page css */
+
+  /* manage profile page css */
+  .py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.action {
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+}
+
+.search-icon {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+
+.profile-desc .profile-img-container .profile-img {
+    border-radius: 50%;
+}
+
+.profile-img-container .profile-img {
+    height: 8.92rem;
+    width: 8.92rem;
+    border: .357rem solid #FFF;
+    background-color: #FFF;
+    border-radius: .428rem;
+    /* box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%); */
+}
+
+.profile-desc img {
+    border-radius: 50%;
+}
+
+.rating-section {
+    background: #f6f6f6;
+    /* border-radius: 50%; */
+    line-height: 50px;
+    vertical-align: middle;
+    align-items: center;
+    box-shadow: 0px 1px 3px 0px #9ccae8;
+    padding: 10px;
+    border-radius: 0 0 7px 7px;
+    margin-top: 13px;
+  }
+  .rating-section p {
+        margin-bottom: 0;
+        line-height: 17px;
+    }
+
+    .rating-section span {
+        font-size: 23px;
+        font-weight: 600;
+        color: #e75e83;
+    }
+
+    .rating-section label {
+        margin: 0;
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+
+.profile-style2 .badge.badge-light-success {
+    background-color: rgba(40, 199, 111, 0.12);
+    color: #28c76f !important;
+}
+
+.profile-style2 .badge {
+    white-space: break-spaces;
+}
+
+.dynamic-details .badge {
+    font-size: 11px !important;
+    line-height: 15px !important;
+    padding: 4px 7px !important;
+    white-space: break-spaces;
+    margin-bottom: 8px !important;
+    border-radius: 7px !important;
+    font-weight: 500;
+    text-align: left;
+}
+
+/* Progress Circle */
+
+.progress-circle {
+    margin-bottom: 1em;
+}
+
+.progress-circle {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+
+.progress-circle .progress-circle-left {
+    left: 0;
+}
+
+.progress-circle>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.progress-circle .progress-circle-left .progress-circle-bar {
+    animation: loading-3 1.5s linear forwards 1.5s;
+    border-color: #28C76F;
+}
+
+.progress-circle .progress-circle-left .progress-circle-bar {
+    left: 100%;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+
+.progress-circle .progress-circle-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 4px;
+     /* border-style: solid; */
+    position: absolute;
+    top: 0;
+}
+
+.progress-circle .progress-circle-right {
+    right: 0;
+}
+
+.progress-circle .progress-circle-value {
+    display: flex;
+    border-radius: 50%;
+    font-size: 36px;
+    text-align: center;
+    line-height: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 300;
+}
+
+.progress-circle .progress-circle-value span {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.progress-circle:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 4px solid #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* End Progress circle */
+
+
+.custom-tabs .primary-attribute .nav.nav-pills .nav-item .nav-link,
+.custom-tabs .primary-attribute .nav.nav-pills .nav-item.dropdown.show .dropdown-menu,
+.custom-tabs.nav.nav-tabs .nav-item .nav-link,
+.custom-tabs.nav.nav-tabs .nav-item.dropdown.show .dropdown-menu {
+    border: 1px solid #cac7f6;
+    box-shadow: 0 1px 3px 0 #9ccae8;
+    background: #fff;
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 3px;
+}
+
+.custom-tabs .progress-circle-profile .nav-tabs .nav-link.active {
+    border: 1px solid #cac7f6;
+    box-shadow: 0 1px 3px 0 #9ccae8 !important;
+    border-radius: 7px;
+    color: #e75687;
+}
+
+.custom-tabs .nav-item .active {
+    background: #f3f6fd !important;
+}
+
+.custom-tabs.nav-tabs .nav-link:after {
+    background: none !important;
+}
+
+.card .card {
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%) !important;
+}
+
+.small-success-tick {
+    background: #29c293;
+    color: #fff;
+    margin-right: 14px !important;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    border-radius: 50%;
+    opacity: 1;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+}
+
+.edit {
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.more {
+    width: 70px;
+    height: 70px;
+}
+
+/* Profile Pic upload */
+
+.profile-picture {
+    position: relative;
+    z-index: 1;
+    width: 8rem;
+    height: 8rem;
+    background-image: url(/assets/profile-placeholder.png);
+    background-size: contain;
+    border-radius: 1em;
+}
+
+.profile-picture img {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+    /* height: 8.92rem; */
+    /* width: 8.92rem; */
+    border: .357rem solid #FFF;
+    background-color: #FFF;
+    /* border-radius: .428rem; */
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+}
+
+.profile-picture label {
+    width: 8rem;
+    height: 8rem;
+    position: relative;
+    z-index: 3;
+}
+
+.profile-picture .drag-over .infotext {
+    color: white;
+    border: dashed 5px white;
+}
+
+.profile-picture .infotext {
+    margin-left: 4px;
+    margin-top: 5px;
+    height: 7.4rem;
+    width: 7.4rem;
+    vertical-align: middle;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    border: dashed 3px rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    padding-top: 0;
+    font-size: 100%;
+  }
+  .profile-picture .infotext span {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 100%;
+        left: 0;
+        font-weight: 900;
+    }
+
+    .icon-border {
+      border: 1px solid;
+      width: 29px;
+      padding: 5px;
+      height: 29px;
+      border-radius: 4px;
+      cursor:pointer;
+
+  }
+  /* /manage profile page css */
+
+  .action-edit
+  {
+    text-decoration: underline;
+    font-size: 14px;
+    color: #7c778d;
+    text-align: right;
+    float: right;
+  }
+ .margin-top12
+  {
+    margin-top: 12px !important;
+  }
+.navigation svg
+{
+    stroke-width: 1;
+}

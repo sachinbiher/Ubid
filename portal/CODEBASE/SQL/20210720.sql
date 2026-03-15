@@ -1,0 +1,28 @@
+CREATE TABLE `categories` (
+    `id` INT(10) NOT NULL,
+    `name` VARCHAR(191) NULL DEFAULT NULL,
+    `icon` VARCHAR(191) NULL DEFAULT NULL,
+    `status` TINYINT(1) NULL DEFAULT NULL COMMENT '1=>active, 0=>Inactive',
+    `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` TIMESTAMP NULL DEFAULT NULL,
+    `deleted_at` TIMESTAMP NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+ALTER TABLE `categories` ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `categories` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+CREATE TABLE `childcategories` (
+    `id` INT(11) NOT NULL,
+    `category_id` INT(11) NULL DEFAULT NULL,
+    `name` VARCHAR(191) NULL DEFAULT NULL,
+    `icon` VARCHAR(191) NULL DEFAULT NULL,
+    `status` TINYINT(1) NULL DEFAULT NULL,
+    `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` TIMESTAMP NULL DEFAULT NULL,
+    `deleted_at` TIMESTAMP NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+ALTER TABLE `childcategories` ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `childcategories` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;

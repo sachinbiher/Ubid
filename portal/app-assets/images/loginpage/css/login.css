@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Century Gothic;
+  color: #000;
+}
+
+@font-face {
+  font-family: Century Gothic;
+  src: url('./GOTHIC.TTF');
+}
+
+.spacer {
+  margin: 0px 5px;
+}
+
+.bg-gold {
+  background: linear-gradient(#9a530eed, #a57e0ae3, #9a530eed);
+  height: 100vh;
+}
+
+.title-head {
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 3rem;
+}
+
+.btn-one {
+  font-size: 1.5rem;
+  color: #212529 !important;
+  text-decoration: underline;
+  border: 1px solid #eaeaea;
+  padding: 10px 35px;
+  border-radius: 30px;
+  background: #eaeaea;
+  margin-left: 5px;
+}
+
+.v-row {
+  width: 85%;
+  margin: 0 auto;
+  padding: 25px 0px;
+}
+
+/* input boxes */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  border: none;
+  background: #fff;
+  margin: 0px 0 5px 0;
+  padding: 5px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background-color: #fff;
+  outline: none;
+}
+
+#form label,
+#form .label-note {
+  color: #000;
+  font-size: 1.3rem;
+}
+
+#form .label-note,
+#form .label-note a {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.button {
+  font-size: 1.5rem;
+  margin: 15px 0px;
+  text-align: center;
+  padding: 5px 50px;
+  border: none;
+  color: #fff;
+  border-radius: 30px;
+  background: #000;
+}
+
+.m0-auto {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.styled-checkbox {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  background: white;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.parent {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.parent .inner-img {
+  width: 450px;
+  position: absolute;
+  top: 60px;
+  right: 0px;
+}
+
+.dot img,
+.arrow img,
+.leftcircle-content p {
+  position: absolute;
+}
+
+.dot .dot-img1 {
+  top: 10%;
+  left: 12%;
+}
+
+.dot .dot-img2 {
+  top: 45%;
+  left: -4%;
+}
+
+.dot .dot-img3 {
+  top: 82%;
+  left: 12%;
+}
+
+.dot .dot-img4 {
+  top: 10%;
+  right: 12%;
+}
+
+.dot .dot-img5 {
+  top: 45%;
+  right: -4%;
+}
+
+.dot .dot-img6 {
+  top: 82%;
+  right: 12%;
+}
+
+.arrow .arrow-img1 {
+  top: 16%;
+  left: 9%;
+  transform: rotate(90deg);
+}
+
+.arrow .arrow-img2 {
+  top: 53%;
+  left: -2%;
+}
+
+.arrow .arrow-img3 {
+  top: 87%;
+  left: 18%;
+}
+
+.arrow .arrow-img4 {
+  top: 7%;
+  right: 18%;
+  transform: rotate(130deg);
+}
+
+.arrow .arrow-img5 {
+  top: 40%;
+  right: -2%;
+  transform: rotate(110deg);
+}
+
+.arrow .arrow-img6 {
+  top: 79%;
+  right: 9%;
+  transform: rotate(100deg);
+}
+
+.leftcircle-content p {
+  font-size: 1.3rem;
+}
+
+.leftcircle-content .p1 {
+  top: 5%;
+  left: -12%;
+}
+
+.leftcircle-content .p2 {
+  top: 40%;
+  left: -25%;
+}
+
+.leftcircle-content .p3 {
+  top: 83%;
+  left: -30%;
+}
+
+.leftcircle-content .p4 {
+  top: 6%;
+  right: -35%;
+}
+
+.leftcircle-content .p5 {
+  top: 46%;
+  right: -33%;
+}
+
+.leftcircle-content .p6 {
+  top: 82%;
+  right: -35%;
+}
+
+@media (max-width:600px) {
+  .title-head {
+    font-size: 1.5rem;
+  }
+
+  .parent {
+    margin: 15px auto;
+  }
+
+  .parent img {
+    width: 200px;
+  }
+
+  .parent .inner-img {
+    width: 200px;
+    position: absolute;
+    top: 30px;
+  }
+
+  .leftcircle-content p {
+    font-size: 10px;
+  }
+
+  .dot img,
+  .arrow img,
+  .leftcircle-content p {
+    position: absolute;
+  }
+
+  .dot img {
+    width: 15px;
+  }
+
+  .arrow img {
+    width: 15px;
+  }
+
+  .arrow .arrow-img2 {
+    top: 52%;
+    left: -3%;
+  }
+
+  .arrow .arrow-img3 {
+    top: 86%;
+    left: 18%;
+  }
+
+  .arrow .arrow-img5 {
+    top: 39%;
+    right: -3%;
+  }
+
+  .arrow .arrow-img6 {
+    top: 77%;
+    right: 8%;
+  }
+
+  .leftcircle-content .p2 {
+    top: 40%;
+    left: -30%;
+  }
+
+  .leftcircle-content .p3 {
+    left: -35%;
+  }
+
+  .leftcircle-content .p4 {
+    right: -40%;
+  }
+
+  .leftcircle-content .p5 {
+    top: 46%;
+    right: -35%;
+  }
+
+  .leftcircle-content .p6 {
+    top: 82%;
+    right: -40%;
+  }
+}

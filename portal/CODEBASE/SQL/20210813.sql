@@ -1,0 +1,2 @@
+CREATE TABLE `help_desk_comments` ( `id` int(11) NOT NULL, `help_desk_id` int(11) DEFAULT NULL, `comments` varchar(255) DEFAULT NULL, `comment_by` int(11) DEFAULT NULL COMMENT 'user_id', `attachment` varchar(191) DEFAULT NULL, `created_at` timestamp NOT NULL DEFAULT current_timestamp(), `updated_at` timestamp NULL DEFAULT NULL ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+ALTER TABLE `help_desk_comments` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT, add PRIMARY KEY (`id`);

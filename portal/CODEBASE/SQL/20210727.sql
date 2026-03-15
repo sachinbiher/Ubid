@@ -1,0 +1,15 @@
+CREATE TABLE `tickets` (
+    `id` INT(11) NOT NULL,
+    `ticket_id` VARCHAR(100) NULL DEFAULT NULL,
+    `customer_id` VARCHAR(100) NULL DEFAULT NULL,
+    `issue_title` VARCHAR(191) NULL DEFAULT NULL,
+    `issue` VARCHAR(255) NULL DEFAULT NULL,
+    `status` TINYINT(1) NOT NULL DEFAULT '0' COMMENT '0=>pending, 1=>resolved',
+    `created_at` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` TIMESTAMP NULL DEFAULT NULL,
+    `deleted_at` TIMESTAMP NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+ALTER TABLE `tickets` ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `tickets` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;

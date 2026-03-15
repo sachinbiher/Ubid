@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "responsive_id": "",
+      "id": 1,
+      "membership_id": "12345",
+      "organization": "Geca",
+      "representative": "Jane",
+      "phone": "9087654321",
+      "email_id": "jane@gmail.com",
+      "type_of_membership": "Founding membership",
+      "status": 2
+    },
+    {
+      "responsive_id": "",
+      "id": 2,
+      "membership_id": "23456",
+      "organization": "UBID",
+      "representative": "Megan",
+      "phone": "1234567890",
+      "email_id": "megan@gmail.com",
+      "type_of_membership": "Annual membership",
+      "status": 1
+    },
+    {
+      "responsive_id": "",
+      "id": 3,
+      "membership_id": "34567",
+      "organization": "SGBC",
+      "representative": "Robert",
+      "phone": "+91-6789054321",
+      "email_id": "robert@gmail.com",
+      "type_of_membership": "Indivicual membership",
+      "status": 2
+    },
+    {
+      "responsive_id": "",
+      "id": 4,
+      "membership_id": "45678",
+      "organization": "Abc",
+      "representative": "Kristen",
+      "phone": "+91-7890876654",
+      "email_id": "kristen@gmail.com",
+      "type_of_membership": "Annual membership",
+      "status": 1
+    },
+    {
+      "responsive_id": "",
+      "id": 5,
+      "membership_id": "567890",
+      "organization": "Xyz",
+      "representative": "John Doe",
+      "phone": "+91-9087654321",
+      "email_id": "john@gmail.com",
+      "type_of_membership": "Founding membership",
+      "status": 2
+    }
+  ]
+}

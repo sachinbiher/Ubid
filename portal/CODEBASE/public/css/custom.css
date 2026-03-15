@@ -1,0 +1,45 @@
+/* General CSS */
+/*a {color:#00b6e3 !important;}*/
+.deznav {width:150px;}
+.nav-header {width:160px;background: #ffffff;}
+.header-navbar.fixed-top {left: 150px;}
+html .content {margin-left: 150px;}
+.nav-header .logo-abbr {max-width: 50px !important;}
+.menu-title {color:#ffffff !important;font-weight:500 !important;white-space: break-spaces;}
+.deznav .metismenu li a svg {color:#ffffff;}
+.deznav .deznav-scroll {overflow: auto !important;}
+.nav-header {height: 3.5rem;}
+.deznav .metismenu {padding-top:0;}
+footer.footer {margin-left:150px;}
+.tabs-pages .nav-link.active {border-bottom: 1.5px solid #90c34c !important;color: #90c34c !important;}
+.page-item.active .page-link {background-color:#90c34c;}
+a.item-edit {color: #00b6e3;}
+footer a {color: #90c34c;}
+.modal-header .close {padding: .8rem 1.4rem;margin: 0;background: transparent !important;box-shadow: none !important;font-size: 1.5rem;padding: 0 !important;}
+.logo-text {font-size:30px;}
+.custom-switch .custom-control-label::before {width: 2.2rem;height: 1.3rem;top: 3px;}
+.custom-switch .custom-control-label:after {top: 5px !important;left: 3px !important;}
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {transform: translateX(0.9rem);}
+.file-manager-application .content-area-wrapper .file-manager-main-content .file-manager-content-body .view-container .file-manager-item {border: 1px solid #ebe9f1 !important;}
+
+
+.issue-btn-all {
+    position: absolute;
+    margin: 29px 0 0 63%;
+}
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+    content: "Browse";
+    background: #696868!important;
+    color: #fff;
+}
+.chatboxbottom_login p, .chatboxbottom_body li, p, a {
+	color: #de8d56;
+}
+.file-manager-application .custom-file-input:lang(en) ~ .custom-file-label::after {
+    content: "Browse";
+    background: #90c34c;
+    color: #fff;
+}
+.text-primary {
+    color: #db9263 !important;
+}
